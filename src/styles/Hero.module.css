@@ -1,0 +1,24 @@
+.hero__image {
+  position: relative;
+  aspect-ratio: 70/45;
+  width: 100%;
+  max-width: 800px;
+}
+
+.hero__marquee_container span {
+  color: #f6e7d8;
+  -webkit-text-stroke: 1px rgb(121, 121, 121);
+}
+
+.hero__marquee__item{
+  animation: marquee 8s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

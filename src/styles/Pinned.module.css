@@ -1,0 +1,6 @@
+.pinned_image{
+    position: relative;
+    height: 33rem;
+    width: 30rem;
+    max-width: 800px;
+}
