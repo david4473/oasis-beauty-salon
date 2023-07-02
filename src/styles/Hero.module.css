@@ -10,7 +10,7 @@
   -webkit-text-stroke: 1px rgb(121, 121, 121);
 }
 
-.hero__marquee__item{
+.hero__marquee__item {
   animation: marquee 8s linear infinite;
 }
 
@@ -19,6 +19,6 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }

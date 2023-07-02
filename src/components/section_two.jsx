@@ -1,12 +1,13 @@
 import Image from "next/image";
 import styles from "../styles/section_2.module.css";
+import Button from "./Button";
 
-const Section_2 = () => {
+const Section_two = () => {
   return (
     <section>
       <div className="h-full">
-        <div className="grid grid-cols-2 max-w-6xl mx-auto place-items-center ">
-          <div className={`${styles.section_2__image} relative`}>
+        <div className="flex justify-around max-w-7xl mx-auto py-24 items-center ">
+          <div className={`${styles.section_2__image} relative shrink-0 `}>
             <Image
               src={"/section_2_image.png"}
               className="object-contain"
@@ -14,8 +15,8 @@ const Section_2 = () => {
               priority
             />
           </div>
-          <div className="">
-            <h2>We also offer Home service</h2>
+          <div className="w-[40%] shrink-0 h-4/5">
+            <h2 className="text-5xl mb-8">We also offer Home service</h2>
             <span>
               Indulge in the ultimate luxury of our home service, bringing
               professional makeup artistry directly to you. Our skilled makeup
@@ -26,6 +27,7 @@ const Section_2 = () => {
               special event, a photoshoot, or simply to elevate your everyday
               look.
             </span>
+            <Button text={"Book Now"} />
           </div>
         </div>
       </div>
@@ -33,4 +35,4 @@ const Section_2 = () => {
   );
 };
 
-export default Section_2;
+export default Section_two;

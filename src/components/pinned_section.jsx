@@ -4,9 +4,9 @@ import styles from "../styles/Pinned.module.css";
 const Pinned = () => {
   return (
     <section>
-      <div className="bg-[#F6E7D8] h-full">
-        <div className=" mx-7 flex items-center justify-around px-8 py-10">
-          <div className="w-[40%] shrink-0 h-4/5 text-center">
+      <div className="bg-[#F6E7D8] h-full ">
+        <div className="flex items-center justify-around max-w-7xl mx-auto py-24 ">
+          <div className="w-[43%] shrink-0 h-4/5">
             <div className="mb-14">
               <h2 className=" text-5xl ">Our Services</h2>
             </div>
