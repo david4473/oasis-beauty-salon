@@ -5,8 +5,8 @@ const Section_2 = () => {
   return (
     <section>
       <div className="h-full">
-        <div className="flex items-center justify-around">
-          <div className={`${styles.section_2__image} relative basis-1/2`}>
+        <div className="grid grid-cols-2 max-w-6xl mx-auto place-items-center ">
+          <div className={`${styles.section_2__image} relative`}>
             <Image
               src={"/section_2_image.png"}
               className="object-contain"
@@ -14,7 +14,7 @@ const Section_2 = () => {
               priority
             />
           </div>
-          <div className="basis-1/2">
+          <div className="">
             <h2>We also offer Home service</h2>
             <span>
               Indulge in the ultimate luxury of our home service, bringing
