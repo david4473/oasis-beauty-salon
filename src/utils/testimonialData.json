@@ -1,0 +1,23 @@
+{
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Amanda Jones",
+        "image": "/images/Amanda.svg",
+        "description": "The selection of products available on the website was truly impressive. Whether it was wedding dresses, bridesmaid dresses, accessories, or decor, I was spoiled for choice. The website curated a diverse range of styles and designs, catering to every taste and budget. "
+      },
+      {
+        "id": 2,
+        "name": "Felicity",
+        "image": "/images/Felicity.svg",
+        "description": "Oasis' creative skills and attention to detail are exceptional. She brought our vision to life and exceeded our expectations. Working with her was an absolute pleasure."
+      },
+      {
+        "id": 3,
+        "name": "Patricia",
+        "image": "/images/Patricia.svg",
+        "description": "Oasis' professionalism and technical expertise are unmatched. Their problem-solving abilities and commitment to delivering high-quality results have been invaluable to our team."
+      }
+    ]
+  }
+  
