@@ -4,6 +4,7 @@ import Pinned from "@/components/pinned_section";
 import Section_three from "@/components/section_three";
 import Section_two from "@/components/section_two";
 import Testimonial_section from "@/components/testimonial_section";
+import Video_section from "@/components/video_section";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Section_three />
       <Explore_section />
       <Testimonial_section />
+      <Video_section />
     </div>
   );
 }
