@@ -8,7 +8,7 @@ import Video_section from "@/components/video_section";
 
 export default function Home() {
   return (
-    <div>
+    <div className="scroll-smooth">
       <Hero />
       <Pinned />
       <Section_two />

@@ -4,7 +4,7 @@ const Video_section = () => {
       <div className="w-full h-[400px] relative">
         <video
           className="w-full h-full brightness-50 absolute object-cover -z-10 inset-0"
-          src="/videos/video_3.mp4"
+          src="/videos/video_2.mp4"
           muted="true"
           loop="true"
           autoPlay="true"

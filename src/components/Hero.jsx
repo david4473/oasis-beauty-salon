@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="overflow-hidden">
+    <section className="overflow-hidden" id="#">
       <div className=" flex justify-center bg-[#754730] h-[500px] px-6 ">
         <div className="w-screen flex items-center basis-1/2  relative z-10 left-10">
           <div>

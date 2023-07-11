@@ -25,3 +25,12 @@
     )
     rgb(var(--background-start-rgb));
 } */
+
+
+.socials{
+  @apply w-6;
+}
+
+.footer__align{
+  @apply w-11/12 mx-auto; 
+}
