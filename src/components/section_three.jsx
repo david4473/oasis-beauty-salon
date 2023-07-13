@@ -17,7 +17,7 @@ const Section_three = () => {
               photoshoot, our photographers have the expertise to bring your
               vision to life.
             </span>
-            <Button text={"Book Now"} />
+            <Button text={"Book Now"} pd_x={"px-16"} mg_y={"my-6"} />
           </div>
           <div className="relative max-w-4xl w-96 h-96">
             <Image

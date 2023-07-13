@@ -1,8 +1,16 @@
-const Button = ({ text }) => {
+import Link from "next/link";
+
+const Button = ({ text, pd_x, mg_y }) => {
   return (
-    <button className=" block text-sm py-3 px-16 bg-[#BF7C63] text-slate-50 my-6 rounded-3xl">
-      {text}
-    </button>
+    <>
+      <Link href="/pricing">
+        <button
+          className={`${pd_x} ${mg_y} block text-sm py-3 bg-[#BF7C63] text-slate-50 rounded-3xl`}
+        >
+          {text}
+        </button>
+      </Link>
+    </>
   );
 };
 

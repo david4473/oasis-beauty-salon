@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
-    <footer className="bg-[#754730] text-slate-50 pt-12 pb-1 text-xs mt-20">
+    <footer className="bg-[#754730] text-slate-50 pt-12 pb-1 text-sm  mt-20">
       <div>
         <div className="flex justify-between footer__align mb-14">
           <div>
@@ -133,7 +135,7 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <div className="w-[15rem]">
+          <div className="w-[17rem]">
             <label className="block text-center" htmlFor="email">
               Sign up for Emails
             </label>
@@ -148,11 +150,17 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="border-t border-b border-[#e4ba8f59] py-3 mb-10">
+        <div className="border-t border-b border-[#e4ba8f59] py-3 mb-10 z-20 relative">
           <ul className="flex justify-around w-1/2 mx-auto">
-            <li>About</li>
-            <li>Contact us</li>
-            <li>FAQ</li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <Link href="/contact">Contact us</Link>
+            </li>
+            <li>
+              <Link href="/faq">FAQ</Link>
+            </li>
           </ul>
         </div>
         <div className="flex justify-between footer__align">

@@ -27,7 +27,7 @@ const Section_two = () => {
               special event, a photoshoot, or simply to elevate your everyday
               look.
             </span>
-            <Button text={"Book Now"} />
+            <Button text={"Book Now"} pd_x={"px-16"} mg_y={"my-6"} />
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Hero = () => {
               Step into Your Personalized Beauty Oasis and Unleash Your Inner
               Radiance
             </p>
-            <Button text={"Book Now"} />
+            <Button text={"Book Now"} pd_x={"px-16"} mg_y={"my-6"} />
           </div>
         </div>
         <div className={`${styles.hero__image} basis-1/2 relative right-10`}>
