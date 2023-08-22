@@ -16,7 +16,7 @@ const Section_two = () => {
             />
           </div>
           <div className="w-[40%] shrink-0 h-4/5">
-            <h2 className="text-5xl mb-8">We also offer Home service</h2>
+            <h2 className="text-3xl mb-4">We also offer Home service</h2>
             <span>
               Indulge in the ultimate luxury of our home service, bringing
               professional makeup artistry directly to you. Our skilled makeup

@@ -7,7 +7,7 @@ const Section_three = () => {
       <div className="h-full">
         <div className="flex justify-around max-w-7xl mx-auto py-24 items-center ">
           <div className="w-[40%] shrink-0 h-4/5">
-            <h2 className="text-5xl mb-8">
+            <h2 className="text-3xl mb-4">
               Browse Oasis Glam Photoshoot Galllery
             </h2>
             <span>

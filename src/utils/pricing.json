@@ -1,0 +1,72 @@
+{
+    "glam": [
+      {
+        "id": 1,
+        "image": "/images/pricing/image-1.png",
+        "name": "Glamour",
+        "price": 96,
+        "time": "45min"
+      },
+      {
+        "id": 2,
+        "image": "/images/pricing/image-2.png",
+        "name": "Fantasy",
+        "price": 96,
+        "time": "45min"
+      },
+      {
+        "id": 3,
+        "image": "/images/pricing/image-3.png",
+        "name": "Dreamy",
+        "price": 96,
+        "time": "45min"
+      }
+    ],
+    "bridal": [
+      {
+        "id": 4,
+        "image": "/images/pricing/image-4.png",
+        "name": "Classic Bridal Makeup",
+        "price": 96,
+        "time": "45min"
+      },
+      {
+        "id": 5,
+        "image": "/images/pricing/image-5.png",
+        "name": "Boho Bridal Makeup",
+        "price": 96,
+        "time": "45min"
+      },
+      {
+        "id": 6,
+        "image": "/images/pricing/image-6.png",
+        "name": "Natural Bridal Makeup",
+        "price": 96,
+        "time": "45min"
+      }
+    ],
+    "photoshoot": [
+      {
+        "id": 7,
+        "image": "/images/pricing/image-7.png",
+        "name": "Vintage Inspired Shoot",
+        "price": 96,
+        "time": "45min"
+      },
+      {
+        "id": 8,
+        "image": "/images/pricing/image-8.png",
+        "name": "Fashion Editorial Shoot",
+        "price": 96,
+        "time": "45min"
+      },
+      {
+        "id": 9,
+        "image": "/images/pricing/image-9.png",
+        "name": "Romantic Shoot",
+        "price": 96,
+        "time": "45min"
+      }
+    ]
+  }
+  

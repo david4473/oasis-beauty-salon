@@ -8,7 +8,7 @@ const Pinned = () => {
         <div className="flex items-center justify-around max-w-7xl mx-auto py-24">
           <div className="w-[43%] shrink-0 h-4/5">
             <div className="mb-14">
-              <h2 className=" text-5xl ">Our Services</h2>
+              <h2 className=" text-4xl text-center">Our Services</h2>
             </div>
             <span className="text-3xl">Oasis Glam</span>
             <p className="mt-5">

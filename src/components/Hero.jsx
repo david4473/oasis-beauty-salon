@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className={` ${styles.hero__marquee_container} py-[1rem] px-[0.3rem] bg-[#F6E7D8] w-screen`}
+        className={` ${styles.hero__marquee_container} py-[1rem] px-[0.3rem] bg-[#F6E7D8] w-screen mb-20`}
       >
         <div className="flex gap-5 items-center overflow-x-hidden">
           <div

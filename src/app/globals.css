@@ -34,3 +34,19 @@
 .footer__align{
   @apply w-11/12 mx-auto; 
 }
+
+.label{
+  @apply block mb-3 font-thin ;
+}
+
+.input{
+  @apply w-full border-b border-solid border-b-[#00000069] bg-transparent mb-10 ;
+}
+
+.pricing__section{
+  @apply flex justify-between mb-10
+}
+
+.pricing__cards{
+  @apply relative aspect-square w-60
+}
